@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical">
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:duplicateParentState="false"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:duplicateParentState="false"
+        android:fontFamily="cursive"
+        android:text="Item 2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/checkBox1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:duplicateParentState="false"
+        android:fontFamily="cursive"
+        android:text="Item 3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/checkBox2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:duplicateParentState="false"
+        android:fontFamily="cursive"
+        android:text="Item 4"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_below="@+id/checkBox3"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:duplicateParentState="false"
+        android:fontFamily="cursive"
+        android:text="Item 5"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/checkBox4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:duplicateParentState="false"
+        android:fontFamily="cursive"
+        android:text="Item 6"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_below="@+id/checkBox5"
+        android:layout_alignLeft="@+id/checkBox1"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/item1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox1"
+        android:layout_alignBottom="@+id/checkBox1"
+        android:layout_toEndOf="@+id/checkBox1"
+        android:layout_toRightOf="@+id/checkBox1"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="Item 1"
+        android:inputType="textPersonName"
+        android:textSize="30sp" />
+
+</RelativeLayout>
